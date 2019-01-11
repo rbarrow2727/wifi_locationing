@@ -35,15 +35,12 @@ Random Forest         0.7432              0.7421
 C5.0                  0.6969              0.6956
 
 Recommendation – Random Forest (best algrithm for wifi locationing):
-By all accounts, Random Forest had the best performance of the three algorithms tested.   
-The mtry value of the Random Forest model was 102. 
-Accuracy in Random Forest confusion Matrix 0.7627
-Error rate for predicting unique location identifier was 6.7%
-I believe the reason Random Forest performed well and why I am recommending it is the amount of variables in the data set.  
-Simply put, the other algorithms are not as good and handling the mass amount of variables (WAPs values) as the Random Forest 
-model.  The mtry value (a tuning parameter) that yielded the best results was 102.  That means that there were 102 variables 
-available for splitting at each tree node.  Mtry can have a strong influence on predictor variable importance and ultimately 
-was a key factor in why this algorithm was chosen.  
+ - By all accounts, Random Forest had the best performance of the three algorithms tested.   
+ - The mtry value of the Random Forest model was 102. 
+ - Accuracy in Random Forest confusion Matrix 0.7627
+ - Error rate for predicting unique location identifier was 6.7%
+ - I believe the reason Random Forest performed well and why I am recommending it is the amount of variables in the data set.  
+ - Simply put, the other algorithms are not as good and handling the mass amount of variables (WAPs values) as the Random Forest model.    The mtry value (a tuning parameter) that yielded the best results was 102.  That means that there were 102 variables available for      splitting at each tree node.  Mtry can have a strong influence on predictor variable importance and ultimately was a key factor in      why this algorithm was chosen.  
 
 Unique Identifier (FL_SPACE_POS) Error Rate
 total obs         3728
