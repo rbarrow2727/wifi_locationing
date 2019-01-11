@@ -47,7 +47,7 @@ was a key factor in why this algorithm was chosen.
 
 Unique Identifier (FL_SPACE_POS) Error Rate
 total obs         3728
-# of errors       250
+No. of errors     250
 Error Rate %      6.706%
 
 Project Recommendations:
